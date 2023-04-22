@@ -16,6 +16,7 @@ Telegram Bot for sharing file. Built using [grammY](https://github.com/grammyjs/
 6. Create `.env` using the template from `.env.sample`
     - `BOT_TOKEN` is the token got from `BotFather`
     - `CYCLIC_DB_NAME` is your `Table Name`. You can check it in `Data/Storage` section after you hosted your app to cyclic.sh
+    - `BOT_ID` is your bot username
 7. Run `nodemon index.ts` to run your app
 8. Do coding :D
 
@@ -28,6 +29,7 @@ Currently, this repository only support deployment to [cyclic.sh](https://www.cy
     - `BOT_TOKEN` is the token got from `BotFather`
     - `CYCLIC_DB_NAME` is your `Table Name`. You can check it in `Data/Storage` section after you host your app in cyclic.sh
     - `NODE_ENV` which is `production`
+    - `BOT_ID` is your bot username
 5. Connect webhook by running
 ```
     bash webhook.bash BOT_TOKEN CYCLIC_DEPLOYMENT_URL
